@@ -1,4 +1,6 @@
-import { Header } from "./components/Header"
+import { Header } from "./components/Header";
+
+import "./styles/global.css";
 
 function App() {
   return (
