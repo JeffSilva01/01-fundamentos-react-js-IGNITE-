@@ -1,11 +1,18 @@
 import { Header } from "./components/Header";
 
+import styles from "./styles/App.module.css";
 import "./styles/global.css";
 
 function App() {
   return (
-    <Header/>
-  )
+    <>
+      <Header />
+      <div className={styles.wrapper}>
+        <aside>sidebar</aside>
+        <main>posts</main>
+      </div>
+    </>
+  );
 }
 
-export default App
+export default App;
